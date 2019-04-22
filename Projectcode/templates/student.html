@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <!-- <link rel="import" href="../result2.html"> -->
+
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>
+        Breast Cancer Prediction System.
+    </title>
+</head>
+
+<body>
+
+    <nav>
+        <span>
+            <font size="5"> BREAST CANCER PREDICTION SYSTEM </font>
+        </span>
+        <span class=one> Quick Help </span>
+        <span class=one> <a href="index.html" class=nav12> Home </a> </span>
+
+    </nav>
+    <!-- <div w3-include-html=""></div> -->
+
+    <hr width="97%" noshade>
+
+    <div class=container>
+        <div class=header>
+            <span class=two> Medical Info </span>
+        </div>
+        <div class=body>
+            <form action="http://localhost:5000/result" method="POST">
+                <!-- <label for="title">Name:*</label>
+                <input type="text" id="title" name="title" required> </input>
+                <label for="descripton">Description:*</label>
+                <textarea rows="4" cols="50" name="description" form="form">
+            </textarea>
+                <label for="age">Age:</label>
+                <select class=four>
+                    <option value="Agegroup1">20-30</option>
+                    <option value="Agegroup2">30-40</option>
+                    <option value="Agegroup3">40-50</option>
+                    <option value="Agegroup4">50-70</option>
+                </select> -->
+                <label for="Product">Enter Value of Radius_Mean:*</label>
+                <input type="text" id="radius_mean" name="radius_mean" required> </input>
+                <label for="Product">Enter Value of Texture_Mean:*</label>
+                <input type="text" id="texture_mean" name="texture_mean" required> </input>
+                <label for="Product">Enter Value of Compactness_Mean:*</label>
+                <input type="text" id="compactness_mean" name="compactness_mean" required> </input>
+                <label for="Product">Enter Value of Smoothness_Mean:*</label>
+                <input type="text" id="smoothness_mean" name="smoothness_mean" required> </input>
+                <label for="Product">Enter Value of Symmetry_Mean:*</label>
+                <input type="text" id="symmetry_mean" name="symmetry_mean" required> </input>
+                <label for="Product">Enter Value of Fractal Dimension_Mean:*</label>
+                <input type="text" id="fractal_dimension_mean" name="fractal_dimension_mean" required> </input>
+                <label for="Product">Enter Value of Radius_Standard Error:*</label>
+                <input type="text" id="radius_se" name="radius_se" required> </input>
+                <label for="Product">Enter Value of Texture_Standard Error:*</label>
+                <input type="text" id="texture_se" name="texture_se" required> </input>
+                <label for="Product">Enter Value of Smmothness_Standard Error:*</label>
+                <input type="text" id="smoothness_se" name="smoothness_se" required> </input>
+                <label for="Product">Enter Value of Compactness_Standard Error:*</label>
+                <input type="text" id="compactness_se" name="compactness_se" required> </input>
+                <label for="Product">Enter Value of Symmetry_Standard Error:*</label>
+                <input type="text" id="symmetry_se" name="symmetry_se" required> </input>
+                <label for="Product">Enter Value of Fractal Dimension_Standard Error:*</label>
+                <input type="text" id="fractal_dimension_se" name="fractal_dimension_se" required> </input>
+                <!-- <label for="problem">Any problem specify:</label>
+                <input type="text" id="Version" name="Version" required> </input> -->
+                <input type="submit" value="submit" />
+
+                <!-- <label for="License" class=license>Member:</label>
+                <input type="radio" name="License" value="Free"> New </input>
+                <input type="radio" name="License" value="Business" class=business> Existing </input>
+
+                <br>
+                <br>
+                <label for="Severity">Severity:</label>
+                <select class=four>
+                    <option value="Critical"> Critical</option>
+                    <option value="Not Critical">Not Critical</option> -->
+
+                <!-- </select> -->
+                <!-- 
+                <label for="Attachment" class=license> Attachment:</label>
+                <input type="file" name="fileupload" value="fileupload" id="fileupload" size="60" />
+ -->
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
