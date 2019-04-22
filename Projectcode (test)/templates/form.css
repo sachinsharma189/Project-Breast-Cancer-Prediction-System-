@@ -1,0 +1,63 @@
+span {
+    display: inline-block;
+    padding: 20px;
+    font-size: 15;
+    color : rgb(83, 165, 104);
+}
+.one
+{
+    float: right;
+}
+.two {
+    display:block;
+    background-color: rgb(192, 187, 187);
+    color:white;
+}
+.nav12{
+	text-decoration:none;
+	color: rgb(83, 165, 104);
+}
+input[type=text],select,textarea{
+    display : block;
+    width:100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.four{
+    background-color: rgb(110, 212, 149);
+    color: whitesmoke;
+}
+.container{
+    width:40%;
+    margin-left: 30%;
+    border: 1px solid rgb(165, 172, 169);
+    border-radius: 5px;
+}
+.license{
+    display:block;
+}
+.business{
+    margin-left: 50%;
+}
+.header{
+}
+.body{
+    padding:20px;
+}
+.footer{
+    background-color: rgb(231, 225, 225);
+    padding-right: 10px;
+    text-align: right;
+}
+.submit{
+    color:white;
+    background-color: rgb(110, 212, 149);
+    border-radius: 7px;
+    padding:7px;
+}
+#Version{
+    width:30%;
+    display:block;
+}
